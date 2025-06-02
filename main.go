@@ -7,10 +7,10 @@ import (
 )
 
 var nameError = errors.New("")
-fmt.Println("YOU")
 
 func getTopWords(wordMap map[string]int, n int) []string {
 	a := []string{}
+	fmt.Println("YOU")
 	for word, _ := range wordMap {
 		if n > 0 {
 			a = append(a, word)
