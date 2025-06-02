@@ -7,6 +7,7 @@ import (
 )
 
 var nameError = errors.New("")
+fmt.Println("YOU")
 
 func getTopWords(wordMap map[string]int, n int) []string {
 	a := []string{}
