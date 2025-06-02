@@ -48,5 +48,10 @@ func AnalyzeText(text string) {
 	for i := 0; i < 5; i++ {
 		fmt.Println(fmt.Sprintf("%s: %d раз", tops[i], a[tops[i]]))
 	}
+}
 
+func main() {
+	AnalyzeText("one two two three three three four four four four five five five five five")
+	AnalyzeText("Go очень очень очень ОЧЕНЬ ОчЕнь очень оЧЕНь классный классный! go просто, ну просто классный. GO Классный!")
+	AnalyzeText("Я так люблю море. Я на море. Я так люблю плавать. Море! Я море!!! ЛЮБЛЮ МОРЕ")
 }
